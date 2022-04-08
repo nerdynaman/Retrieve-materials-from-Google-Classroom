@@ -7,7 +7,9 @@ This project was created using Google drive and classroom API
 Dependencies:
 Kindly run the following command in the command prompt with pip and python prior installed
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-user must create a file named credentials.json in the working directory and credentials should be availed from google cloud platform (GCP), where user must create their credeentials via Oauth client ID and further enable Google Classroom api and Google Drive api in that. After that those credentials should be pasted into credentials.json file that was earlier created.
+
+User must create a file named credentials.json in the working directory and credentials should be availed from google cloud platform (GCP), where user must create their credeentials via Oauth client ID and further enable Google Classroom api and Google Drive api in that. After that those credentials should be pasted into credentials.json file that was earlier created.
+Empty directory named "downloadedMaterial", empty files named "className.txt", "DownloadLinks.txt" have to be also initialise in working directory.
 
 Using this API anyone can access all their classroom that they are enrolled in and further could what all latest materials are
 uploaded by various professors and TA's, moreover, if you want to download those files then you can download multiple files in
